@@ -9,7 +9,8 @@
   left: 0;
   width: 100%;
   height: 0; 
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--color4);
+  opacity: 0.8;
   color: white;
   overflow: hidden;
   border-radius: 8px;
@@ -21,6 +22,14 @@
 
 .project-item:hover .overlay {
   height: 100%;
+}
+
+.tech-used {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 2px;
 }
 
 .project-info {

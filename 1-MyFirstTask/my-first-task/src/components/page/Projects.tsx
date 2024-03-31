@@ -69,8 +69,9 @@ const Projects: React.FC = () => {
                         ))}
                       </ul>
                     </div>
-                    <FontAwesomeIcon icon={faGithub} className="w-8" />
-                  </a>
+                    <div className="flex justify-center items-center">
+                      <FontAwesomeIcon icon={faGithub} className="w-8" />
+                    </div>                  </a>
                 </div>
               </div>
             </li>
@@ -104,7 +105,9 @@ const Projects: React.FC = () => {
                         ))}
                       </ul>
                     </div>
-                    <FontAwesomeIcon icon={faGithub} className="w-8" />
+                    <div className="flex justify-center items-center">
+                      <FontAwesomeIcon icon={faGithub} className="w-8" />
+                    </div>
                   </a>
                 </div>
               </div>
