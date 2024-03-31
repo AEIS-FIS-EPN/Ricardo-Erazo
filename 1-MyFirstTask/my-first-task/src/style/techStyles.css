@@ -1,0 +1,32 @@
+.tech li {
+  background-color: var(--color1);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech li:hover {
+  background-color: var(--color2);
+  transition: 0.3s ease-in-out;
+  rotate: -5deg;
+}
+
+.tech li .experience {
+  display: none;
+  position: absolute;
+  font-size: 10px;
+  text-align: center;
+  top: 0;
+  right: -35%;
+  background-color: var(--color5);
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+
+.tech li:hover .experience {
+  display: block;
+}
