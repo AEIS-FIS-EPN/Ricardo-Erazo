@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color1: #224463;
+  --color2: #1a3654;
+  --color3: #112945;
+  --color4: #091b37;
+  --color5: #000d28;
+  --color6: #ffffff;
+  --color7: #000000;
+  --font-color: var(--color7);
+  --background-first: var(--color4);
+  --background-second: var(--color2);
+  font-family: "Nova Flat", system-ui;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --font-color: var(--color6);
+    --background-first: var(--color4);
+    --background-second: var(--color2);
+  }
+}
+
+body {
+  color: var(--font-color);
+  background: radial-gradient(
+    var(--background-second),
+    var(--background-first)
+  )
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
