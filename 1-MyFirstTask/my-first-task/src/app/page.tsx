@@ -1,9 +1,6 @@
-import NavBar from "../components/NavBar";
-
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <NavBar />
       <section id="home" className="min-h-screen flex justify-center items-center">
         <h1 className="text-5xl">Ricardo Erazo</h1>
       </section>

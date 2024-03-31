@@ -1,0 +1,28 @@
+.navbar {
+  backdrop-filter: blur(10px);
+}
+
+.navbar li {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.navbar li::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color6);
+  transition: width 0.5s ease;
+}
+
+.navbar li:hover::after {
+  width: 100%;
+}
+
+.navbar button.active {
+  border-bottom: 1px solid var(--color6);
+}
