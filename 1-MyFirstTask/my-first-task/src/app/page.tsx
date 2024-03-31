@@ -1,6 +1,7 @@
 import Profile from '../components/page/Profile';
 import Technologies from '../components/page/Technologies';
 import Projects from '../components/page/Projects';
+import Contact from '../components/page/Contact';
 
 export default function Home() {
   return (
@@ -14,8 +15,8 @@ export default function Home() {
       <section id="projects" className="min-h-screen flex flex-col justify-center items-center">
         <Projects />
       </section>
-      <section id="contact" className="min-h-screen flex flex-col justify-center items-center">
-        <h1 className="text-5xl">Contact</h1>
+      <section id="contact" className="min-h-screen flex flex-col justify-center items-center bg-[--color5]">
+        <Contact />
       </section>
     </main>
   );
