@@ -3,8 +3,8 @@ import { Nova_Flat } from "next/font/google";
 import "../style/globals.css";
 import "../style/navBarStyles.css";
 
-import NavUp from "../components/NavUp";
-import NavBar from "../components/NavBar";
+import NavUp from "../components/global/NavUp";
+import NavBar from "../components/global/NavBar";
 
 const nova_flat = Nova_Flat({ weight: "400", style: "normal", display: "swap", subsets: ['latin']});
 
