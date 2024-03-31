@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 😎Ricardo Erazo's Portfolio
 
-## Getting Started
+**Welcome to my portfolio!**
 
-First, run the development server:
+This is a personal project where I showcase my work and experience in software development.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contact](#contact)
+
+## Overview 🦉
+
+This portfolio is designed to display information about me, my skills, projects I've worked on, and how to contact me.
+
+## Technologies 👨‍💻
+
+- HTML
+- CSS
+- TypeScript
+- React.js
+- Next.js
+- Tailwind CSS
+- FontAwesome
+
+## Installation 🐢
+> [!WARNING]
+> Make sure you have npm and Node.js installed on your computer.
+
+1. Clone this repository on your local machine:
+
+```bash
+git clone https://github.com/AEIS-FIS-EPN/Ricardo-Erazo.git
+```
+2. Enter the folder '1-MyFirstTask/my-first-task':
+```bash
+cd 1-MyFirstTask
+```
+3. Install dependencies:
+```bash
+cd my-first-task
+npm install
+```
+## Usage 🐇
+Once you've installed the dependencies, you can start the local development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Visit `http://localhost:3000` in your browser to see your portfolio in action.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## License 📚
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is licensed under the [MIT License](LICENSE).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contact 📧
+If you have any questions or want to contact me, you can do so via my email address [r.erazo2805@gmail.com](mailto:r.erazo2805@gmail.com).
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for visiting my portfolio!
