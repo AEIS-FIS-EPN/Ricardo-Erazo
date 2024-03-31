@@ -1,9 +1,7 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3, faJs, faReact, faVuejs, faNodeJs } from '@fortawesome/free-brands-svg-icons'
 
-
-const Profile: React.FC = () => {
+const Technologies: React.FC = () => {
 
   const techs1 = [
     {icon: faHtml5, name: 'HTML', experience: 2},
@@ -70,4 +68,4 @@ const Profile: React.FC = () => {
   );
 };
 
-export default Profile;
+export default Technologies;

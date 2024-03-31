@@ -1,5 +1,6 @@
 import Profile from '../components/page/Profile';
 import Technologies from '../components/page/Technologies';
+import Projects from '../components/page/Projects';
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
         <Technologies />
       </section>
       <section id="projects" className="min-h-screen flex flex-col justify-center items-center">
-        <h1 className="text-5xl">Projects</h1>
+        <Projects />
       </section>
       <section id="contact" className="min-h-screen flex flex-col justify-center items-center">
         <h1 className="text-5xl">Contact</h1>
