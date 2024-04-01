@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
             rel="noreferrer">
             <i className="fab fa-linkedin"></i>
           </a>
-          LinkeIn
+          LinkedIn
         </li>
         <li>
           <a href="https://github.com/RickC1218"
