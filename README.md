@@ -1,33 +1,63 @@
-# AWS Course
-## Description
+# 😎Ricardo Erazo's Portfolio
 
-The AWS Course is designed to provide a comprehensive introduction to Amazon Web Services (AWS ☁️) and its various services
-.
-The teacher of the course is [Alejandro Llanganate](https://www.alejandrollanganate.com/).
+**Welcome to my portfolio!**
 
+This is a personal project where I showcase my work and experience in software development.
 
-## Introduction
+## Table of Contents
 
-Within this repository the different activities covered in the course are housed, that is, in-class activities and homework 📑.
+- [Overview](#overview)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contact](#contact)
 
-## Content
+## Overview 🦉
 
-The content of this repository is divided into folders in which they are specified with a week number followed by the name of the industrial activity, for example:
+This portfolio is designed to display information about me, my skills, projects I've worked on, and how to contact me.
 
-* 1-MyFirstAPI
-* 1-MyFirstTask
+## Technologies 👨‍💻
 
-## Tips and Recommendations
+- HTML
+- CSS
+- TypeScript
+- React.js
+- Next.js
+- Tailwind CSS
+- FontAwesome
 
-> [!TIP]
-> Take advantage of the course activities and practices 😎
+## Installation 🐢
+> [!WARNING]
+> Make sure you have npm and Node.js installed on your computer.
 
-> [!TIP]
-> Explore AWS Documentation and don't forget to take notes 🦉
+1. Clone this repository on your local machine:
 
-> [!NOTE]
-> Learning about AWS is an ongoing process 🤯
+```bash
+git clone https://github.com/AEIS-FIS-EPN/Ricardo-Erazo.git
+```
+2. Enter the folder '1-MyFirstTask/my-first-task':
+```bash
+cd 1-MyFirstTask
+```
+3. Install dependencies:
+```bash
+cd my-first-task
+npm install
+```
+## Usage 🐇
+Once you've installed the dependencies, you can start the local development server:
 
-## License
+```bash
+npm run dev
+```
+Visit `http://localhost:3000` in your browser to see your portfolio in action.
 
-This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+## License 📚
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact 📧
+If you have any questions or want to contact me, you can do so via my email address [r.erazo2805@gmail.com](mailto:r.erazo2805@gmail.com).
+
+Thank you for visiting my portfolio!
