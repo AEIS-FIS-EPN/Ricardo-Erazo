@@ -36,13 +36,12 @@ This portfolio is designed to display information about me, my skills, projects 
 ```bash
 git clone https://github.com/AEIS-FIS-EPN/Ricardo-Erazo.git
 ```
-2. Enter the folder '1-MyFirstTask/my-first-task':
+2. Enter the folder 'ricardo-erazo-portfolio':
 ```bash
-cd 1-MyFirstTask
+cd ricardo-erazo-portfolio
 ```
 3. Install dependencies:
 ```bash
-cd my-first-task
 npm install
 ```
 ## Usage 🐇
