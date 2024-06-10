@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3, faJs, faReact, faVuejs, faNodeJs } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faCss3, faJs, faReact, faVuejs, faNodeJs, faAws } from '@fortawesome/free-brands-svg-icons'
 
 const Technologies: React.FC = () => {
 
@@ -10,13 +10,13 @@ const Technologies: React.FC = () => {
     {icon: faJs, name: 'TypeScript', experience: 1},
   ];
   const techs2 = [
-    {icon: faReact, name: 'React', experience: 1},
+    {icon: faReact, name: 'React', experience: 1.5},
     {icon: faVuejs, name: 'Vue.js', experience: 1},
-    {icon: faReact, name: 'Next.js', experience: 1},
+    {icon: faReact, name: 'NextJS', experience: 1},
   ];
   const techs3 = [
-    {icon: faNodeJs, name: 'Node.js', experience: 1},
-    {icon: faNodeJs, name: 'Scrum', experience: 2},
+    {icon: faNodeJs, name: 'Node.js', experience: 1.5},
+    {icon: faAws, name: 'AWS', experience: 1},
   ];
 
   return (
@@ -42,7 +42,7 @@ const Technologies: React.FC = () => {
           {techs2.map((tech, index) => (
             <li key={index}>
               {
-                tech.name === 'Next.js' ? "" : <FontAwesomeIcon icon={tech.icon} className='w-1/3 text-[--color6]' />
+                tech.name === 'NextJS' ? "" : <FontAwesomeIcon icon={tech.icon} className='w-1/3 text-[--color6]' />
               }
               <p>{tech.name}</p>
               <span className='experience'>{tech.experience} años de experiencia</span>
@@ -55,9 +55,7 @@ const Technologies: React.FC = () => {
         <ul className='tech flex justify-start w-full items-center space-x-4 pt-2 pb-4 px-6 overflow-x-auto'>
           {techs3.map((tech, index) => (
             <li key={index}>
-              {
-                tech.name === 'Scrum' ? "" : <FontAwesomeIcon icon={tech.icon} className='w-1/3 text-[--color6]' />
-              }
+              <FontAwesomeIcon icon={tech.icon} className='w-1/3 text-[--color6]' />
               <p>{tech.name}</p>
               <span className='experience'>{tech.experience} años de experiencia</span>
             </li>
